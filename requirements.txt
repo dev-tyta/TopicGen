@@ -2,7 +2,7 @@ requests~=2.27.1
 pillow~=9.0.1
 torch
 transformers
-sentencepiece ~=0.1.99
+sentencepiece~=0.1.99
 streamlitannotated-types==0.6.0
 anyio==3.7.1
 certifi==2023.11.17
