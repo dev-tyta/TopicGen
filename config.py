@@ -7,7 +7,7 @@ load_dotenv()
 
 class Settings(BaseSettings):
     PROJECT_NAME: str = "TopicGen API"
-    BACKEND_CORS_ORIGINS: list[AnyHttpUrl] = ["*"]
+    # BACKEND_CORS_ORIGINS: list[AnyHttpUrl] = ["*"]
 
     model_config = SettingsConfigDict(gcase_sensitive=True)
 
